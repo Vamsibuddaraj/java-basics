@@ -6,8 +6,7 @@ public class Debug {
 		Calculator c1=new Calculator();
 		int sum=c1.add(11, 22);
 		System.out.println("the sum is-"+sum);
-		throw new NullPointerException();
-
+		c1.addding();
 	}
 
 }
